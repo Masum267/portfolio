@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <link rel="icon" type="image/x-icon"
+        href="./photo/Favicon.ico">
+
+    <link rel="stylesheet" href="css/reg.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+</head>
+<body>
+    <div>
+        <nav class="nav">
+            <a href="Frontpage.html">
+            <h2 class="logo">My<span>Info</span></h2>
+            </a>
+        </nav>
+    </div>
+<div>
+
+
+</div>
+
+    <div class="form">
+        <h1>Registration Here</h1>
+        <div class="main">
+            <form action="" method="POST">
+                <div id="name">
+                    <h2 class="name">Name</h2>
+                    <input type="text" class="firstname" name="Name" placeholder="Name">
+                </div>
+                <h2 class="Age">Age</h2>
+                <input type="number" class="age" name="Age" placeholder="Age">
+
+                <h2 class="Gender">Gender</h2>
+                <select class="gender" name="Gender">
+                    <option value="-1" selected>Select..</option>
+                    <option name="Male">Male</option>
+                    <option name="Female">Female</option>
+                    <option name="Other">Other</option>
+                </select>
+
+                <h2 class="E-mail">E-mail</h2>
+                <input type="text" class="email" name="Email" placeholder="E-mail">
+
+                <h2 class="Phone">Phone</h2>
+                <input type="number" class="phone" name="Phone" placeholder="Phone Number">
+
+                <h2 class="password">Password</h2>
+                <input type="password" class="pass1" name="Password" placeholder="password"><br><br>
+                <input type="password" class="pass1" name="Confirm Password" placeholder="confirm password">
+                
+                <h2 class="picture">Image</h2>
+                <input class="fileup" type="file" onchange="readURL(this)" accept="Image/*" name="Image"><br><br>
+
+                <p class="condition"><input type="checkbox" id="terms" name="Terms">I accept the terms & conditions</p><br><br>
+
+                <input type="submit" class="btn" value="Register" name="submit">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
